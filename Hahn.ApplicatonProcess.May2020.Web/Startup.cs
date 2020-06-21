@@ -34,7 +34,7 @@ namespace Hahn.ApplicatonProcess.May2020.Web
                 options.EnableDetailedErrors();
                 options.UseSqlServer(Configuration.GetConnectionString("AppConnection"));
             });
-            services.AddScoped<IApplicantService, ApplicantService>();
+            services.AddTransient<IApplicantService, ApplicantService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
