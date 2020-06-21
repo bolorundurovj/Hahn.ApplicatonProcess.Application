@@ -39,6 +39,11 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
         [HttpPost("/api/applicants")]
         public ActionResult CreateApplicant([FromBody] NewApplicantRequest applicantRequest)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Model State Not Valid");
+            }
+
             var now = DateTime.UtcNow;
             var applicant = new Applicant
             {
