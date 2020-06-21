@@ -43,5 +43,11 @@ namespace Hahn.ApplicatonProcess.May2020.Domain
                 throw new InvalidOperationException("Can't delete a person that does not exist");
             }
         }
+
+        public void UpdateApplicant(Applicant applicant)
+        {
+            _db.Entry(applicant).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            _db.SaveChanges();
+        }
     }
 }

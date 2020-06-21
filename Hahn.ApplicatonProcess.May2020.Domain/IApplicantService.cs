@@ -9,5 +9,6 @@ namespace Hahn.ApplicatonProcess.May2020.Domain
         public Applicant GetApplicant(int applicantId);
         public void AddApplicant(Applicant applicant);
         public void DeleteApplicant(int applicantId);
+        public void UpdateApplicant(Applicant applicant);
     }
 }

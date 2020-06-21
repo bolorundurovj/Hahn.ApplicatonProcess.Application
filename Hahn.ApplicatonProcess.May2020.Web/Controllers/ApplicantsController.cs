@@ -61,6 +61,30 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
             return Ok($"Applicant Created: {applicant.Name}");
         }
 
+        [HttpPost("/api/applicants/{id}")]
+        public ActionResult UpdateApplicant([FromBody] EditApplicationRequest applicantRequest, int id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Model State Not Valid");
+            }
+
+            var now = DateTime.UtcNow;
+            var applicant = _applicantService.GetApplicant(id);
+
+            applicant.UpdatedOn = now;
+            applicant.Name = applicantRequest.Name;
+            applicant.Surname = applicantRequest.Surname;
+            applicant.Country = applicantRequest.Country;
+            applicant.Address = applicantRequest.Address;
+            applicant.Age = applicantRequest.Age;
+            applicant.Email = applicantRequest.Email;
+            applicant.Hired = applicantRequest.Hired;
+
+            _applicantService.UpdateApplicant(applicant);
+            return Ok($"Applicant Updated: {applicant.Name}");
+        }
+
         [HttpDelete("/api/applicants/{id}")]
         public ActionResult DeleteApplicant(int id)
         {
