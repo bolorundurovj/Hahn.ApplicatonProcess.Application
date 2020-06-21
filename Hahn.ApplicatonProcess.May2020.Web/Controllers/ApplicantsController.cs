@@ -29,6 +29,13 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
             return Ok(applicants);
         }
 
+        [HttpGet("/api/applicants/{id}")]
+        public ActionResult GetApplicant(int id)
+        {
+            var applicant = _applicantService.GetApplicant(id);
+            return Ok(applicant);
+        }
+
         [HttpPost("/api/applicants")]
         public ActionResult CreateApplicant([FromBody] NewApplicantRequest applicantRequest)
         {
@@ -47,6 +54,13 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
             };
             _applicantService.AddApplicant(applicant);
             return Ok($"Applicant Created: {applicant.Name}");
+        }
+
+        [HttpDelete("/api/applicants/{id}")]
+        public ActionResult DeleteApplicant(int id)
+        {
+            _applicantService.DeleteApplicant(id);
+            return Ok($"Applicant Deleted with ID: {id}");
         }
     }
 }
