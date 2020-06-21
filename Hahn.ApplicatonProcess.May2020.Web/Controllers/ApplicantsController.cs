@@ -23,7 +23,8 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
         [HttpGet("/api/applicants")]
         public ActionResult GetApplicants()
         {
-            return Ok("Applicants !!");
+            var applicants = _applicantService.GetAllApplicants();
+            return Ok(applicants);
         }
     }
 }
