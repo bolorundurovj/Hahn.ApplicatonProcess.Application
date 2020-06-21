@@ -35,9 +35,13 @@ namespace Hahn.ApplicatonProcess.May2020.Domain
             if(personToDelete != null)
             {
                 _db.Remove(personToDelete);
+                _db.SaveChanges();
             }
 
-            throw new InvalidOperationException("Can't delete a person that does not exist");
+            else
+            {
+                throw new InvalidOperationException("Can't delete a person that does not exist");
+            }
         }
     }
 }
