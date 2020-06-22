@@ -116,6 +116,10 @@ C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.App
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.csproj.CoreCompileInputs.cache
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.MvcApplicationPartsAssemblyInfo.cache

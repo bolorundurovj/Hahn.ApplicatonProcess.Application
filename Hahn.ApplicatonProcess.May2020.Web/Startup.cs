@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 
 namespace Hahn.ApplicatonProcess.May2020.Web
 {
@@ -35,6 +36,8 @@ namespace Hahn.ApplicatonProcess.May2020.Web
                 options.UseSqlServer(Configuration.GetConnectionString("AppConnection"));
             });
             services.AddTransient<IApplicantService, ApplicantService>();
+            services.AddSwaggerGen(options =>
+                options.SwaggerDoc("v1", new OpenApiInfo { Title = "Applicant API", Version = "v1" }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,12 +59,20 @@ namespace Hahn.ApplicatonProcess.May2020.Web
 
             app.UseRouting();
 
-            
+            app.UseSwagger();
+
+            app.UseSwaggerUI(options =>
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Applicant API v1"));
 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapGet("/", context =>
+                {
+                    context.Response.Redirect("/swagger/");
+                    return Task.CompletedTask;
+                });
                 endpoints.MapControllers();
             });
         }
