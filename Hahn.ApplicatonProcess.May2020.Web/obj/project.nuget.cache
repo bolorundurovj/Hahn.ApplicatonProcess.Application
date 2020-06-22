@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EnVLOPE1M1+VgHASKKLJ5psKFSsU/wJntdvhFssF3zFDichKBORJAQ3FgFyzgKY8OVTro2Gnphq9ZS8QJu83Ew==",
+  "dgSpecHash": "wQLUHHCGgzYWWSfkzLZ61zUbq7o6wtpUN0cMmHPEFwI7ZV83n8JTiYA0SzxgaYJZS/v3OhKBj+KRCycPf7RV9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\bolorundurovb\\Desktop\\Tasks\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.May2020.Web\\Hahn.ApplicatonProcess.May2020.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\bolorundurovb\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\bolorundurovb\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.2\\fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
+    "C:\\Users\\bolorundurovb\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.2\\fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
     "C:\\Users\\bolorundurovb\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\bolorundurovb\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\bolorundurovb\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

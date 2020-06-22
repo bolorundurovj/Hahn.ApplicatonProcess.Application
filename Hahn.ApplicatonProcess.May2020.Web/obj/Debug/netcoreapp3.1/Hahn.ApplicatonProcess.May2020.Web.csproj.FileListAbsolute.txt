@@ -57,8 +57,6 @@
 /mnt/c/Users/bolorundurovb/Desktop/Tasks/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.May2020.Web/bin/Debug/netcoreapp3.1/Hahn.ApplicatonProcess.May2020.Domain.pdb
 /mnt/c/Users/bolorundurovb/Desktop/Tasks/Hahn.ApplicatonProcess.Application/Hahn.ApplicatonProcess.May2020.Web/obj/Debug/netcoreapp3.1/Hahn.ApplicatonProcess.May2020.Web.csproj.CopyComplete
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.csprojAssemblyReference.cache
-C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.csproj.CoreCompileInputs.cache
-C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.AssemblyInfoInputs.cache
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.AssemblyInfo.cs
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
@@ -115,3 +113,9 @@ C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.App
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.dll
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.pdb
 C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.genruntimeconfig.cache
+C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.csproj.CoreCompileInputs.cache
+C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\bolorundurovb\Desktop\Tasks\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.MvcApplicationPartsAssemblyInfo.cache

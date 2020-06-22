@@ -51,9 +51,7 @@ namespace Hahn.ApplicatonProcess.May2020.Web
             app.UseRouting();
 
             app.UseCors(builder => builder
-            .WithOrigins(
-                "http://localhost:8080"
-                )
+            .AllowAnyOrigin()
             .AllowAnyMethod()
             .AllowAnyHeader()
             );
