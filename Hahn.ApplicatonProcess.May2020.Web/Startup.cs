@@ -46,15 +46,17 @@ namespace Hahn.ApplicatonProcess.May2020.Web
             }
             db.Database.EnsureCreated();
 
-            app.UseHttpsRedirection();
-
-            app.UseRouting();
-
             app.UseCors(builder => builder
             .AllowAnyOrigin()
             .AllowAnyMethod()
             .AllowAnyHeader()
             );
+
+            app.UseHttpsRedirection();
+
+            app.UseRouting();
+
+            
 
             app.UseAuthorization();
 
